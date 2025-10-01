@@ -18,5 +18,32 @@ body {
 }
 
 /* https://www.fluid-type-scale.com */
+.xxxL{ font-size: var(--size-xxxl);}
 
-h1{ font-size: var(--size-xxxl);}
+body{ font-size: var(--fs-base);}
+
+h1{ font-size: var(--fs-xxxl);}
+
+/*  interliniage */
+
+p{ line-height: 1.4;}
+
+/* interlettrage */
+
+p{ letter-spacing: 0.02em;}
+h1{letter-spacing: -0.01em;}
+
+/* couleur */
+
+:root{
+	--jazz-bleu: hsl(186, 36%, 44%);
+    --jazz-bleu-dark: hsl(186, 36%, 30%);
+}
+
+body{ color: var( --jazz-bleu-dark);}
+h1{ color: var( --jazz-bleu);}
+
+
+/* Miser en page */
+img { max-width: 100%; }
+#Affiche{ height: 300px;}
